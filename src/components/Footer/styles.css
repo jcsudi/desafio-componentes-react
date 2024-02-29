@@ -1,0 +1,31 @@
+.dsct-footer-container {
+    background-color: var(--dsct-color-border);
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dsct-color-font-primary);
+    padding-top: 10px;
+
+}
+
+footer h4  {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dsct-color-font-primary);
+}
+
+@media(width>= 746px){
+    .dsct-footer-container {
+  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}

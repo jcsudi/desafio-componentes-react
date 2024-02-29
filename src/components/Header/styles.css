@@ -1,15 +1,19 @@
 header {
-    background-color: var(--ct-color-bg-secondary);
+    background-color: var(--dsct-color-bg-secondary);
     height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 25px;
-
 }
 
 header h1 {
-    color: var(--ct-color-font-primary);
-    font-size: 24px;
+    color: var(--dsct-color-font-primary);
+    font-size: 20px;
+}
 
+@media (min-width:746px){
+    header h1 {
+        font-size: 24px;
+
+    }
 }

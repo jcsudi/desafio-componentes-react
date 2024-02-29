@@ -1,0 +1,49 @@
+#dsct-visit-section {
+    margin: 25px 20px;
+}
+
+.dsct-car-card-container {
+    width: 100%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.dsct-car-card-content {
+    border: 1px solid var(--dsct-color-border);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dsct-car-card-content p {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--dsct-color-font-secondary);
+}
+
+.dsct-car-card-content img {
+    width: 100%;
+    min-width: 260px;
+}
+
+@media(width>=746px){
+    .dsct-car-card-container {
+        max-width: 746px;
+    }
+
+    .dsct-car-card-content p {
+        font-size: 20px;
+    }
+
+    .dsct-car-card-content img {
+        width: 391px;
+    }
+
+  
+
+   
+   
+}

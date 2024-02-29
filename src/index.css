@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 :root {
-  --ct-color-bg-primary: #fff;
-  --ct-color-bg-secondary:#3C9AF0;
-  --ct-color-bg-tertiary: #C8C8C8;
+  --dsct-color-bg-primary: #fff;
+  --dsct-color-bg-secondary:#3C9AF0;
+  --dsct-color-bg-tertiary: #C8C8C8;
   
-  --ct-color-font-primary: #fff;
-  --ct-color-font-secondary:#5E5E5E;
-  --ct-color-font-tertiary:#3C9AF0;
+  --dsct-color-font-primary: #fff;
+ --dsct-color-font-secondary :#5E5E5E;
+  --dsct-color-font-tertiary:#3C9AF0;
 
-  --ct-color-border:#3C9AF0;
+  --dsct-color-border:#3C9AF0;
 }
 
 * {
@@ -26,5 +26,6 @@ a:hover {
 
 html,
 body {
-  background-color: var(--ct-color-bg-primary);
+  background-color: var(--dsct-color-bg-primary);
 }
+
